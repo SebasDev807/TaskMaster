@@ -10,6 +10,7 @@ public class Queries(List<Task> _tasks)
     public void ListTask()
     {
         Table table = new Table("Id", "Descripcion", "Completado");
+        table.AddRow(1, 2, 3, 4);
         
     }
 
