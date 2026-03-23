@@ -6,7 +6,7 @@ public class TaskMasterApp
 
   private static readonly FileActions<Task> fileActions = new("./App/tasks.json");
   private static readonly List<Task> tasks = fileActions.ReadFile();
-  private static readonly Queries queries = new(tasks);
+  private static readonly Queries queries = new(tasks, fileActions);
   public static void ShowMenu()
   {
     bool salir = false;
@@ -24,28 +24,30 @@ public class TaskMasterApp
       WriteLine("8. Salir");
       Write("\nSeleccione una opción: ");
 
+
       switch (ReadLine())
       {
         case "1":
           queries.ListTask();
           break;
         case "2":
-          // AddTask();
+          queries.AddTask();
           break;
         case "3":
-          // MarkAsCompleted();
+          Write("Ingrese el id:");
+          queries.MarkAsCompleted();
           break;
         case "4":
-          // EditTask();
+          queries.EditTask();
           break;
         case "5":
-          // RemoveTask();
+           queries.RemoveTask();
           break;
         case "6":
-          //TasksByState();
+          queries.TasksByState();
           break;
         case "7":
-          //TasksByDescription();
+          queries.TasksByDescription();
           break;
         case "8":
           salir = true;

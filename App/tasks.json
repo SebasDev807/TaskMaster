@@ -4,23 +4,63 @@
     "Description": "Limpiar el cuarto",
     "Completed": true,
     "CreatedAt": "2024-04-15T00:00:00",
-    "ModifiedAt": "2025-03-10T19:17:56.371587-04:00",
+    "ModifiedAt": "2025-03-10T18:17:56.371587-05:00",
     "Deleted": true
   },
   {
     "Id": "f73d8fd",
     "Description": "Comer saludable",
-    "Completed": false,
+    "Completed": true,
     "CreatedAt": "2024-01-15T00:00:00",
-    "ModifiedAt": "2024-01-15T00:00:00",
+    "ModifiedAt": "2026-03-23T15:03:12.0142097-05:00",
     "Deleted": true
   },
   {
     "Id": "3f6c921",
     "Description": "Estudiar C#",
     "Completed": false,
-    "CreatedAt": "2025-03-11T15:20:53.051415-04:00",
-    "ModifiedAt": "2025-03-12T13:16:17.74727-04:00",
+    "CreatedAt": "2025-03-11T14:20:53.051415-05:00",
+    "ModifiedAt": "2025-03-12T12:16:17.74727-05:00",
+    "Deleted": false
+  },
+  {
+    "Id": "134d029",
+    "Description": "Suicidarme",
+    "Completed": true,
+    "CreatedAt": "2026-03-23T14:07:16.3792208-05:00",
+    "ModifiedAt": "2026-03-23T15:08:39.5248631-05:00",
+    "Deleted": false
+  },
+  {
+    "Id": "46180f2",
+    "Description": "Matar a mis enemigos",
+    "Completed": false,
+    "CreatedAt": "2026-03-23T15:26:45.4952382-05:00",
+    "ModifiedAt": "2026-03-23T15:26:45.4952414-05:00",
+    "Deleted": false
+  },
+  {
+    "Id": "47064b7",
+    "Description": "Estudiar csharp",
+    "Completed": false,
+    "CreatedAt": "2026-03-23T15:51:08.3437079-05:00",
+    "ModifiedAt": "2026-03-23T15:51:08.3437112-05:00",
+    "Deleted": false
+  },
+  {
+    "Id": "b728bcf",
+    "Description": "Estudiar TypeScript",
+    "Completed": false,
+    "CreatedAt": "2026-03-23T15:51:24.1537426-05:00",
+    "ModifiedAt": "2026-03-23T15:51:24.1537486-05:00",
+    "Deleted": false
+  },
+  {
+    "Id": "961e434",
+    "Description": "Estudiar ASP.Net",
+    "Completed": false,
+    "CreatedAt": "2026-03-23T15:51:36.576459-05:00",
+    "ModifiedAt": "2026-03-23T15:51:36.5764666-05:00",
     "Deleted": false
   }
 ]
